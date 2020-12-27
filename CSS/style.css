@@ -126,6 +126,8 @@ ul {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 
 .link-contacts:hover,
@@ -149,6 +151,21 @@ ul {
   border-bottom: 1px solid #ececec;
   display: block;
 }
+
+.mailto-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-tell {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /*--------------------------------------hero--------------------------------------------*/
 
 .hero-conteiner {
