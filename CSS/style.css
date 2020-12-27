@@ -174,6 +174,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  width: 1600px;
 }
 
 .hero {
@@ -181,6 +182,13 @@ ul {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 280px;
+  background-image: url(../img/Герой.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-main {
@@ -224,7 +232,7 @@ ul {
 }
 
 .advantage-title {
-  margin-top: 0;
+  margin-top: 30px;
   padding: 0;
   margin-bottom: 10px;
 }
@@ -243,6 +251,19 @@ ul {
   margin: 0;
 }
 
+.icon-advantage {
+  width: 65.32px;
+  height: 70px;
+}
+
+.icon-conteiner {
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 /*----------------------------------------Чем ми занимаемся------------------------------*/
 .conteiner-work {
   padding-top: 94px;
@@ -308,7 +329,7 @@ h3 {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 
 .team-hero {
@@ -372,6 +393,21 @@ h3 {
 
 .card.flex-start-aligned {
   align-items: flex-start;
+}
+
+.icon-network {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.icon-network:hover,
+.icon-network:focus {
+  color: var(--accent-text-color);
+}
+
+.network-conteiner {
+  padding-bottom: 30px;
 }
 
 /*-------------------------------Footer------------------------------------*/
