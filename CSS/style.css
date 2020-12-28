@@ -441,7 +441,6 @@ h3 {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  margin: 0 auto 50px;
 }
 
 .conteiner-client {
@@ -451,26 +450,26 @@ h3 {
 .client-list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
 }
 
-.client-item {
-  display: flex;
+.client-link {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  margin-right: 30px;
-}
 
-.logotype {
   fill: #afb1b8;
 }
 
-.client-item:hover {
-  border-color: var(--button-bgc);
+.client-link:hover {
+  border-color: 1px solid var(--button-bgc);
   color: var(--button-bgc);
+  outline: none;
 }
 
 /*-------------------------------Footer------------------------------------*/
@@ -542,7 +541,6 @@ h3 {
 
 .joim-item {
   display: flex;
-  justify-content: center;
 }
 
 .join-tatile {
@@ -552,7 +550,19 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
 }
+
+.conteiner-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.icon-join {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
 /*-----------------------------Портфолио--------------------------------*/
 
 /*-------------------------------------------кнопки------------------------------------------------*/
