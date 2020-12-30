@@ -422,7 +422,8 @@ h3 {
   margin-right: 10px;
 }
 
-.icon-link:hover {
+.icon-link:hover,
+.icon-link:focus {
   background-color: var(--accent-text-color);
   color: #ffffff;
 }
@@ -471,7 +472,9 @@ h3 {
 }
 
 .client-link:hover,
-.logotype:hover {
+.logotype:hover,
+.client-link:focus,
+.logotype:focus {
   border-color: 1px solid var(--button-bgc);
   color: var(--button-bgc);
   outline: none;
@@ -647,10 +650,16 @@ h3 {
   box-sizing: border-box;
 }
 
-.foto-item:hover,
-.foto-item:focus {
+.link-portfolio:hover,
+.link-portfolio:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  outline: none;
+}
+
+.link-portfolio {
+  display: block;
+  text-decoration: none;
 }
 
 .foto-item:nth-child(3n) {
